@@ -1,0 +1,36 @@
+* {
+    background: lightgrey;
+}
+
+.navbar {
+    margin-bottom: 25px;
+}
+
+#warehouse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1280px;
+}
+
+#button-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    background: lightblue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   }
+
+   .anim-div {
+       background: lightslategray;
+       padding: 5px;
+    
+   }
+
+   .rating {
+       font-weight: 700;
+       background: lightslategray;
+   }
