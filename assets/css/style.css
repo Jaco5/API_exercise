@@ -1,5 +1,5 @@
 * {
-    background: lightgrey;
+    background: rgb(39, 39, 39);
 }
 
 .navbar {
@@ -27,7 +27,7 @@
    .anim-div {
        background: lightslategray;
        padding: 5px;
-    
+       margin-bottom: 15px;    
    }
 
    .rating {
