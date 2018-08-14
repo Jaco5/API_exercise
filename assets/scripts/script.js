@@ -21,22 +21,22 @@ function cuddleFunction() {
         })
             .then(function (response) {
                 console.log(response);
-                var results = response.data
+                var cuddleResults = response.data
 
-                for (i = 0; i < results.length; i++) {
-                    var animalDiv = $("<div class='anim-div'>");
+                for (i = 0; i < cuddleResults.length; i++) {
+                    var cuddleDiv = $("<div class='anim-div'>");
                     var p = $("<p class='rating'>");
-                    $(p).text(results[i].rating);
-                    var animalImage = $("<img>");
-                    $(animalImage).addClass("gif");
-                    $(animalImage).attr('src', results[i].images.fixed_height_still.url);
-                    $(animalImage).attr("data-still", results[i].images.fixed_height_still.url);
-                    $(animalImage).attr("data-animate", results[i].images.fixed_height.url);
-                    $(animalImage).attr("data-state", "still");
-                    $(animalDiv).addClass("anim-div");
-                    $(animalDiv).append(p);
-                    $(animalDiv).append(animalImage);
-                    $("#warehouse").prepend(animalDiv);
+                    $(p).text(cuddleResults[i].rating);
+                    var cuddleImage = $("<img>");
+                    $(cuddleImage).addClass("gif");
+                    $(cuddleImage).attr('src', cuddleResults[i].images.fixed_height_still.url);
+                    $(cuddleImage).attr("data-still", cuddleResults[i].images.fixed_height_still.url);
+                    $(cuddleImage).attr("data-animate", cuddleResults[i].images.fixed_height.url);
+                    $(cuddleImage).attr("data-state", "still");
+                    $(cuddleDiv).addClass("anim-div");
+                    $(cuddleDiv).append(p);
+                    $(cuddleDiv).append(cuddleImage);
+                    $("#warehouse").prepend(cuddleDiv);
                 }
 
             })
