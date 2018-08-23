@@ -1,8 +1,5 @@
 # API_exercise
 
-//-->Pseudocode
+Cuddle Buttons allows you to dynamically create buttons that will interact with giphy to bring you images of whatever you type in the button field. However it is intended only to be used for finding cute things.
 
-    /create array of search terms;
-    /function to create buttons for array members
-    /all buttons on click AJAX giphy and dynamically add to the page, displaying rating
-     -- prepended
+https://Jaco5.github.io/API_exercise
